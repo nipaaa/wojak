@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +12,21 @@ h6,
 p {
   margin: 0;
 }
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
 
 .container {
   max-width: 1319px;
+}
+.navbar-nav {
+  gap: 40px;
+}
+.nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
 }
 .banner h1,
 .banner h2 {

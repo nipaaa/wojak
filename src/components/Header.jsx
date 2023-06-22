@@ -6,7 +6,7 @@ import telegram from "../assets/telegram.png";
 const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand" href="#">
             <img src={logo} alt="" />
