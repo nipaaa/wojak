@@ -1,42 +1,72 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h3,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.container {
+  max-width: 1319px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.banner h1,
+.banner h2 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 98%;
+  letter-spacing: -4.8px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.banner h1 {
+  color: #fff;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner h2 {
+  color: #fff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.gradient_btn {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 49px;
+  background: var(
+    --gradient-2,
+    linear-gradient(270deg, #67ce16 0%, #19c1e2 100%)
+  );
+  padding: 16px 24px;
+  border: none;
 }
-
-.card {
-  padding: 2em;
+.gain h3,
+.gain h4 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -3.2px;
 }
-
-.read-the-docs {
-  color: #888;
+.gain p {
+  color: #fff;
+  font-size: 36px;
+  line-height: 150%;
+}
+.why h3 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 98%;
+  letter-spacing: -3.2px;
+}
+.why h6 {
+  color: var(--brand-2, #eff0fc);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.why p {
+  color: var(--text-ph-1, #d3d4e0);
+  font-size: 24px;
 }
