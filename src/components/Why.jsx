@@ -11,11 +11,11 @@ const Why = () => {
             <img className="img-fluid" src={why} alt="" />
           </div>
           <div className="col-12 col-md-6">
-            <div>
+            <div className="content">
               <h6>Scared that the market will dump on you?</h6>
               <p>With Wojakpot even in bear market there is always a winner</p>
             </div>
-            <div>
+            <div className="content">
               <h6>Early Bird Gets the Worm!</h6>
               <p>
                 The sooner you buy WojakPot tokens, the higher your chances of
