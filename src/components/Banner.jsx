@@ -8,7 +8,7 @@ const Banner = () => {
           Wojak's Cash <br />
           Surge Your Key to{" "}
         </h1>
-        <h2>Financial Victory</h2>
+        <h2 className="gradient_text">Financial Victory</h2>
         <button className="gradient_btn">Financial Victory</button>
       </div>
     </div>

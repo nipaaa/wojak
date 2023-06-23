@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
+
 h1,
 h3,
 h3,
@@ -12,22 +14,34 @@ h6,
 p {
   margin: 0;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
 }
 
 .container {
-  max-width: 1319px;
+  max-width: 1430px;
 }
+
+.navbar {
+  margin-bottom: 295px;
+}
+
 .navbar-nav {
   gap: 40px;
 }
+
 .nav-link {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
 }
+
+.banner {
+  margin-bottom: 455px;
+}
+
 .banner h1,
 .banner h2 {
   font-size: 96px;
@@ -35,24 +49,33 @@ body {
   line-height: 98%;
   letter-spacing: -4.8px;
 }
+
 .banner h1 {
   color: #fff;
 }
+
 .banner h2 {
   color: #fff;
+  margin-bottom: 47px;
 }
+
 .gradient_btn {
   color: #fff;
   font-size: 24px;
   font-weight: 600;
   border-radius: 49px;
-  background: var(
-    --gradient-2,
-    linear-gradient(270deg, #67ce16 0%, #19c1e2 100%)
-  );
+  background: var(--gradient-2,
+      linear-gradient(270deg, #67ce16 0%, #19c1e2 100%));
   padding: 16px 24px;
   border: none;
 }
+
+.gradient_text {
+  background: var(--gradient-2, linear-gradient(270deg, #67CE16 0%, #19C1E2 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .gain h3,
 .gain h4 {
   color: #fff;
@@ -61,11 +84,13 @@ body {
   line-height: 100%;
   letter-spacing: -3.2px;
 }
+
 .gain p {
   color: #fff;
   font-size: 36px;
   line-height: 150%;
 }
+
 .why h3 {
   color: #fff;
   font-size: 64px;
@@ -73,12 +98,14 @@ body {
   line-height: 98%;
   letter-spacing: -3.2px;
 }
+
 .why h6 {
   color: var(--brand-2, #eff0fc);
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 24px;
 }
+
 .why p {
   color: var(--text-ph-1, #d3d4e0);
   font-size: 24px;
