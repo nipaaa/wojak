@@ -64,14 +64,19 @@ body {
   font-size: 24px;
   font-weight: 600;
   border-radius: 49px;
-  background: var(--gradient-2,
-      linear-gradient(270deg, #67ce16 0%, #19c1e2 100%));
+  background: var(
+    --gradient-2,
+    linear-gradient(270deg, #67ce16 0%, #19c1e2 100%)
+  );
   padding: 16px 24px;
   border: none;
 }
 
 .gradient_text {
-  background: var(--gradient-2, linear-gradient(270deg, #67CE16 0%, #19C1E2 100%));
+  background: var(
+    --gradient-2,
+    linear-gradient(270deg, #67ce16 0%, #19c1e2 100%)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -98,6 +103,9 @@ body {
   font-size: 36px;
   line-height: 150%;
 }
+.why {
+  margin-bottom: 300px;
+}
 
 .why h3 {
   color: #fff;
@@ -118,7 +126,23 @@ body {
   color: var(--text-ph-1, #d3d4e0);
   font-size: 24px;
 }
-
+.prize {
+  margin-bottom: 300px;
+}
+.prize h3 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 108.5%;
+  letter-spacing: -3.2px;
+  margin-bottom: 58px;
+}
+.prize p {
+  color: #fff;
+  font-size: 36px;
+  line-height: 150%;
+  margin-bottom: 58px;
+}
 
 .prize .range {
   width: 400px;
@@ -140,4 +164,31 @@ body {
   cursor: pointer;
   border: 4px solid #333;
   box-shadow: -407px 0 0 400px #00fd0a;
+}
+.join {
+  margin-bottom: 126px;
+}
+
+.join h3 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 108.5%;
+  letter-spacing: -3.2px;
+  margin-bottom: 34px;
+}
+.join p {
+  color: #e0e0e0;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 56px;
+}
+.footer {
+  background: #101010;
+  padding: 73px 0 80px;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 24px;
 }

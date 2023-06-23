@@ -6,7 +6,7 @@ const Why = () => {
     <div className="why">
       <div className="container">
         <h3>Why WojakPot ?</h3>
-        <div className="row align-items-center">
+        <div className="row align-items-end">
           <div className="col-12 col-md-6">
             <img className="img-fluid" src={why} alt="" />
           </div>
