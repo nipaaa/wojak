@@ -2,6 +2,7 @@ import "./App.css";
 import Banner from "./components/Banner";
 import Gain from "./components/Gain";
 import Header from "./components/Header";
+import Prize from "./components/Prize";
 import Why from "./components/Why";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Banner />
       <Gain />
-      <Why />
+      {/* <Why /> */}
+      <Prize />
     </div>
   );
 }

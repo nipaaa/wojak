@@ -12,8 +12,9 @@ const Gain = () => {
             <p>
               Embrace the thrill of crypto meme holding with WojakPot. Every
               coin you hold could be your ticket to the jackpot!{" "}
-            </p>
-            <p>
+            </p>{" "}
+            <br /> <br />
+            <p style={{ marginBottom: "58px" }}>
               Our revolutionary tokenomics design ensures that just by holding,
               you stand a chance to win big every day. Be part of this
               game-changing movement in the crypto world!
