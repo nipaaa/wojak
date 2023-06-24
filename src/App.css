@@ -141,3 +141,47 @@ body {
   border: 4px solid #333;
   box-shadow: -407px 0 0 400px #00fd0a;
 }
+
+
+@media screen and (max-width:991px) {
+  .navbar {
+    margin-bottom: 40px;
+  }
+
+  .banner h1,
+  .banner h2 {
+    font-size: 40px;
+    line-height: 184%;
+    letter-spacing: 0.2px;
+  }
+
+  element.style {}
+
+  [type=button]:not(:disabled),
+  [type=reset]:not(:disabled),
+  [type=submit]:not(:disabled),
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+
+  .gradient_btn {
+    font-size: 16px;
+    padding: 8px 17px;
+
+  }
+
+  .banner {
+    margin-bottom: 40px;
+  }
+
+  .gain h3,
+  .gain h4 {
+    font-size: 40px;
+    letter-spacing: 0.8px;
+    line-height: 136%;
+  }
+
+  .gain p {
+    font-size: 16px;
+  }
+}
