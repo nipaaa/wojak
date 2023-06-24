@@ -193,7 +193,7 @@ body {
 .roadmap .box {
   border-radius: 24px;
   padding: 32px 24px;
-  width: 331px;
+  max-width: 331px;
   background: linear-gradient(black, black) padding-box,
     linear-gradient(to right, #67CE16, #19C1E2) border-box;
   border: 2px solid transparent;
@@ -323,8 +323,8 @@ body {
 
   .banner h1,
   .banner h2 {
-    font-size: 40px;
-    line-height: 138%;
+    font-size: 30px;
+    line-height: 106%;
     letter-spacing: -0.8px;
   }
 
@@ -352,7 +352,8 @@ body {
   }
 
   .why h3 {
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 106%;
     letter-spacing: 0.8px;
   }
 
@@ -369,7 +370,8 @@ body {
   }
 
   .roadmap h3 {
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 106%;
     letter-spacing: 0.8px;
   }
 
@@ -392,9 +394,9 @@ body {
 
   .gain h3,
   .gain h4 {
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 106%;
     letter-spacing: 0.8px;
-    line-height: 136%;
   }
 
   .gain p {
@@ -406,8 +408,8 @@ body {
   }
 
   .prize h3 {
-    font-size: 40px;
-    line-height: 135.5%;
+    font-size: 30px;
+    line-height: 106%;
     letter-spacing: 0.8px;
   }
 
