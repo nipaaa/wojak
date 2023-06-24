@@ -5,6 +5,7 @@ import Gain from "./components/Gain";
 import Header from "./components/Header";
 import JoinUs from "./components/JoinUs";
 import Prize from "./components/Prize";
+import RoadMap from "./components/RoadMap";
 import Why from "./components/Why";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Gain />
       <Why />
       <Prize />
+      <RoadMap />
       <JoinUs />
       <Footer />
     </div>

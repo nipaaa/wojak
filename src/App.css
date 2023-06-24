@@ -64,19 +64,15 @@ body {
   font-size: 24px;
   font-weight: 600;
   border-radius: 49px;
-  background: var(
-    --gradient-2,
-    linear-gradient(270deg, #67ce16 0%, #19c1e2 100%)
-  );
+  background: var(--gradient-2,
+      linear-gradient(270deg, #67ce16 0%, #19c1e2 100%));
   padding: 16px 24px;
   border: none;
 }
 
 .gradient_text {
-  background: var(
-    --gradient-2,
-    linear-gradient(270deg, #67ce16 0%, #19c1e2 100%)
-  );
+  background: var(--gradient-2,
+      linear-gradient(270deg, #67ce16 0%, #19c1e2 100%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -103,9 +99,11 @@ body {
   font-size: 36px;
   line-height: 150%;
 }
+
 .why {
   margin-bottom: 300px;
 }
+
 .why .content {
   margin-bottom: 70px;
 }
@@ -129,9 +127,11 @@ body {
   color: var(--text-ph-1, #d3d4e0);
   font-size: 24px;
 }
+
 .prize {
   margin-bottom: 300px;
 }
+
 .prize h3 {
   color: #fff;
   font-size: 64px;
@@ -140,6 +140,7 @@ body {
   letter-spacing: -3.2px;
   margin-bottom: 58px;
 }
+
 .prize p {
   color: #fff;
   font-size: 36px;
@@ -164,15 +165,131 @@ body {
   width: 15px;
   height: 18px;
   border-radius: 50%;
-  background: var(
-    --gradient-2,
-    linear-gradient(270deg, #67ce16 0%, #19c1e2 100%)
-  );
+  background: var(--gradient-2,
+      linear-gradient(270deg, #67ce16 0%, #19c1e2 100%));
 
   cursor: pointer;
   border: 4px solid #fff;
   box-shadow: -407px 0 0 400px #00fd0a;
 }
+
+.roadmap h3 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 108.5%;
+  letter-spacing: -3.2px;
+  margin-bottom: 42px;
+}
+
+.roadmap p {
+  color: #fff;
+  font-size: 32px;
+  line-height: 150%;
+  margin-bottom: 135px;
+}
+
+.roadmap .box {
+  border-radius: 24px;
+  padding: 32px 24px;
+  width: 331px;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #67CE16, #19C1E2) border-box;
+  border: 2px solid transparent;
+}
+
+.roadmap h6 {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.roadmap .map_container {
+  position: relative;
+  max-width: 800px !important;
+  margin: auto;
+  justify-content: space-between !important;
+}
+
+.roadmap .map_container::before {
+  position: absolute;
+  content: '';
+  width: 4px;
+  height: 70%;
+  background: var(--gradient-2, linear-gradient(117deg, #67CE16 0%, #19C1E2 100%));
+  left: 50%;
+  border-radius: 5px;
+}
+
+#phaseOne {
+  position: relative;
+}
+
+#phaseOne::before {
+  position: absolute;
+  content: '';
+  width: 65px;
+  height: 65px;
+  background-image: url('../src/assets/roadman.png');
+  background-repeat: no-repeat;
+  left: -27%;
+  top: 38%;
+}
+
+.roadmap .map_container .map {
+  margin-bottom: 133px;
+}
+
+.roadmap ul li {
+  color: #FFF;
+  font-size: 24px;
+  line-height: 133.2%;
+}
+
+.roadmap button {
+  width: 184px;
+  border-radius: 35px;
+  background: #79F2BB;
+  color: var(--black, #000);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border: none;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.join {
+  margin-bottom: 126px;
+}
+
+.join h3 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 108.5%;
+  letter-spacing: -3.2px;
+  margin-bottom: 34px;
+}
+
+.join p {
+  color: #e0e0e0;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 56px;
+}
+
+.footer {
+  background: #101010;
+  padding: 73px 0 80px;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 24px;
+}
+
 
 
 @media screen and (max-width:991px) {
@@ -206,6 +323,10 @@ body {
     margin-bottom: 40px;
   }
 
+  .gain {
+    margin-bottom: 40px;
+  }
+
   .gain h3,
   .gain h4 {
     font-size: 40px;
@@ -216,45 +337,32 @@ body {
   .gain p {
     font-size: 16px;
   }
-}
-.roadmap h3 {
-  color: #fff;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 108.5%;
-  letter-spacing: -3.2px;
-  margin-bottom: 42px;
-}
-.roadmap p {
-  color: #fff;
-  font-size: 32px;
-  line-height: 150%;
-  margin-bottom: 135px;
-}
-.join {
-  margin-bottom: 126px;
-}
 
-.join h3 {
-  color: #fff;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 108.5%;
-  letter-spacing: -3.2px;
-  margin-bottom: 34px;
-}
-.join p {
-  color: #e0e0e0;
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 56px;
-}
-.footer {
-  background: #101010;
-  padding: 73px 0 80px;
-}
+  .prize {
+    margin-bottom: 40px;
+  }
 
-.footer p {
-  color: #fff;
-  font-size: 24px;
+  .prize h3 {
+    font-size: 40px;
+    line-height: 135.5%;
+    letter-spacing: 0.8px;
+  }
+
+  .prize p {
+    font-size: 16px;
+  }
+
+  .join h3 {
+    font-size: 40px;
+    letter-spacing: 0.8px;
+  }
+
+  .join p {
+    font-size: 16px;
+  }
+
+  .footer p {
+    font-size: 16px;
+  }
+
 }
