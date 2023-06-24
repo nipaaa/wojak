@@ -324,8 +324,8 @@ body {
   .banner h1,
   .banner h2 {
     font-size: 40px;
-    line-height: 184%;
-    letter-spacing: 0.2px;
+    line-height: 138%;
+    letter-spacing: -0.8px;
   }
 
   element.style {}
@@ -345,6 +345,37 @@ body {
 
   .banner {
     margin-bottom: 40px;
+  }
+
+  .why {
+    margin-bottom: 40px;
+  }
+
+  .why h3 {
+    font-size: 40px;
+    letter-spacing: 0.8px;
+  }
+
+  .why h6 {
+    font-size: 20px;
+  }
+
+  .why p {
+    font-size: 16px;
+  }
+
+  .roadmap h3 {
+    font-size: 40px;
+    letter-spacing: 0.8px;
+  }
+
+  .roadmap p {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .roadmap .map_container::before {
+    display: none;
   }
 
   .gain {

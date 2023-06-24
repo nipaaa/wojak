@@ -14,7 +14,11 @@ const Why = () => {
 
           <div className="col-12 col-md-7">
             <div className="d-flex align-items-center">
-              <img className="me-3 img-fluid" src={traffic} alt="" />
+              <img
+                className="d-none d-lg-block me-3 img-fluid"
+                src={traffic}
+                alt=""
+              />
               <div>
                 <div className="content">
                   <h6>Scared that the market will dump on you?</h6>

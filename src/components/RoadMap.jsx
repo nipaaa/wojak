@@ -13,7 +13,7 @@ const RoadMap = () => {
           laughs to conquering the metaverse
         </p>
         <div className="row map_container">
-          <div className="col-6 ">
+          <div className="col-12 col-md-6 ">
             <div style={{ marginTop: "133px" }} className="map">
               <div className="text-center">
                 <img style={{ marginBottom: "24px" }} src={graytik} alt="" />
@@ -54,7 +54,7 @@ const RoadMap = () => {
             </div>
           </div>
 
-          <div className="col-6 ">
+          <div className="col-12 col-md-6 ">
             <div className="map">
               <div className="text-center">
                 <img style={{ marginBottom: "24px" }} src={greentik} alt="" />

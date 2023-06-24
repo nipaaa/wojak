@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
-        <div className="d-flex justify-content-between">
-          <div className="d-flex gap-5">
+        <div className="d-flex gap-2 flex-wrap justify-content-between">
+          <div className="d-flex flex-wrap gap-2 gap-lg-5">
             <img className="me-5" src={logo} alt="" />
             <p>wojackpotinfo@gmail.com</p>
           </div>
