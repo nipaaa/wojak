@@ -28,22 +28,22 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#">
+                <a className="nav-link " aria-current="page" href="#gain">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#">
+                <a className="nav-link " aria-current="page" href="#why">
                   Why Wojakpot
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#">
+                <a className="nav-link " aria-current="page" href="#roadmap">
                   Roadmap
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#">
+                <a className="nav-link " aria-current="page" href="#prize">
                   Whitepaper
                 </a>
               </li>

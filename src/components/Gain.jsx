@@ -3,7 +3,7 @@ import gain from "../assets/gain.png";
 
 const Gain = () => {
   return (
-    <div className="gain">
+    <div id="gain" className="gain">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-md-6">

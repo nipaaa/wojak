@@ -4,7 +4,7 @@ import traffic from "../assets/traffic.png";
 
 const Why = () => {
   return (
-    <div className="why">
+    <div id="why" className="why">
       <div className="container">
         <h3>Why WojakPot ?</h3>
         <div className="row align-items-end">

@@ -4,7 +4,7 @@ import greentik from "../assets/green-tik.png";
 
 const RoadMap = () => {
   return (
-    <div className="roadmap">
+    <div id="roadmap" className="roadmap">
       <div className="container">
         <h3>RoadMap</h3>
         <p>
