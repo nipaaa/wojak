@@ -20,7 +20,10 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span>
+              <i className="text-white fa-solid fa-bars"></i>
+            </span>
+            {/* <span className="navbar-toggler-icon"></span> */}
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
