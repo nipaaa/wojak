@@ -13,7 +13,7 @@ const Why = () => {
           </div>
 
           <div className="col-12 col-md-7">
-            <div className="d-flex align-items-center">
+            <div className="d-flex align-items-center gap-4">
               <img
                 className="d-none d-lg-block me-3 img-fluid"
                 src={traffic}

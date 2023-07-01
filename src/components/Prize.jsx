@@ -14,9 +14,10 @@ const Prize = () => {
           <div className="col-12 col-md-6">
             <h3>Wojakpot prize calculator</h3>
             <p>
-              Where memes meet money, unleashing a new era of internet-fueled
+              Where memes meet money, <br/>
+              unleashing a new era of <br/> internet-fueled 
               fortunes. <br /> <br />
-              Join the Wojak revolution and ride the rollercoaster of laughter
+              Join the Wojak revolution <br/> and ride the rollercoaster of <br/> laughter
               and gains!
             </p>
             <button className="gradient_btn">

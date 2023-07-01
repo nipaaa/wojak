@@ -9,7 +9,7 @@ const Banner = () => {
           Surge Your Key to{" "}
         </h1>
         <h2 className="gradient_text">Financial Victory</h2>
-        <button className="gradient_btn">Financial Victory</button>
+        <button className="gradient_btn">Presale Going At Pinksale</button>
       </div>
     </div>
   );

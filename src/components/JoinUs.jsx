@@ -7,7 +7,7 @@ const JoinUs = () => {
         <h3>Join Us</h3>
         <p>
           Don&apos;t hesitate to Join Us to get latest news & Updates about
-          Wojakpot as well as crucial financial knowledge to become successful
+          Wojakpot as well as crucial <br/> financial knowledge to become successful
           investors globally
         </p>
         <div style={{ gap: "26px" }} className="d-flex">
